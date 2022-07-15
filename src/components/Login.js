@@ -2,7 +2,7 @@ import React from "react";
 
 function Login() {
   function handleSubmit(event) {
-    event.preventDefault();
+    event.preventDefault(); // prevents page reloading
     console.log("I submit");
   }
 
